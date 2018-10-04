@@ -90,6 +90,8 @@ services:
     image: mattermost/mattermost-prod-web
     ports:
       - "80:80"
+      - "8000:8000"
+      - "8065:8065"
       - "443:443"
     networks:
       - mm-out
