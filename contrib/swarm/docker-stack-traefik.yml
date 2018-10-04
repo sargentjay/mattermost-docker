@@ -105,7 +105,7 @@ services:
     ports:
       - "80:80"
       # you can view the traefik's dashboard in http://localhost:8080
-      - "8080:8080"
+      - "8065:8065"
       - "443:443"
     networks:
       - mm-out
