@@ -95,7 +95,7 @@ services:
       - mm-out
     volumes:
       # This directory must have cert files
-      - /var/lib/mattermost/cert:/cert:ro
+      - /bigguy/mattermost/cert:/cert:ro
       - /etc/localtime:/etc/localtime:ro
     environment:
       # use app service's hostname
