@@ -63,10 +63,10 @@ services:
       - mm-in
       - mm-out
     volumes:
-      - /var/lib/mattermost/config:/mattermost/config:rw
-      - /var/lib/mattermost/data:/mattermost/data:rw
-      - /var/lib/mattermost/logs:/mattermost/logs:rw
-      - /var/lib/mattermost/plugins:/mattermost/plugins:rw
+      - /bigguy/mattermost/config:/mattermost/config:rw
+      - /bigguy/mattermost/data:/mattermost/data:rw
+      - /bigguy/mattermost/logs:/mattermost/logs:rw
+      - /bigguy/mattermost/plugins:/mattermost/plugins:rw
       - /etc/localtime:/etc/localtime:ro
     environment:
       # use service's hostname
