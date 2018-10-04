@@ -70,7 +70,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
     environment:
       # use service's hostname
-      - DB_HOST=mm_db
+      - DB_HOST=db
       # talk to the port within the overlay network
       # without (over)exposing ports
       - DB_PORT_NUMBER=5432
