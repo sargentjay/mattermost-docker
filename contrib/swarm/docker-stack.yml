@@ -87,7 +87,7 @@ services:
         condition: on-failure
   web:
     # use official mattermost prod-web image
-    image: mattermost/mattermost-prod-web
+    image: pgsdoc03:5000/mattermost-app
     ports:
       - "80:80"
       - "443:443"
